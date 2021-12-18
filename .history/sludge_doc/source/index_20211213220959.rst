@@ -1,4 +1,4 @@
-
+============================================
 Sludge
 ============================================
 
@@ -11,7 +11,7 @@ Introduction
 
 
 Sludge is a **SaaS platform** for calculating the matrix like biochemical models (such as activated sludge models 1, 2 and 3). The aim of this project is to help people to build and calculate their own wasterwater treatment process easily.
-The input of the whole process are only 3 excel xlsx files. By this way, you can check and make your own biological model conveniently.
+The input of the whole process are only 3 excel xlsx files. By this way, you can check and make his own biological model conveniently.
 
 
 The key features are:

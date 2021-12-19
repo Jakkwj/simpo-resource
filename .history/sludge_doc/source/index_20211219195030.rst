@@ -1,0 +1,91 @@
+Sludge
+=======
+
+
+
+.. toctree::
+    :hidden:
+    :caption: This is a caption
+    :titlesonly:
+
+    模块/index
+
+
+.. toctree::
+    :hidden:
+    :caption: about
+
+    about
+
+
+Welcome to Sludge's documentation.
+
+Introduction
+=============
+
+
+Sludge is a **SaaS platform** for calculating the matrix like biochemical models (such as activated sludge models 1, 2 and 3). The aim of this project is to help people to build and calculate their own wasterwater treatment process easily.
+The input of the whole process are only 3 excel xlsx files. By this way, you can check and make your own biological model conveniently.
+
+
+The key features are:
+
+- **Simple**:
+
+  + only 3 excel files and you are good to go
+- **Sharable**
+- **Trackable**
+
+
+
+This is a demo site for |theme_display|, generated as part of
+`Sphinx Themes Gallery <https://sphinx-themes.org>`_.
+
+
+Time Unit
+==============
+During calcualting, there are 2 time units we should notice: **Parameter** and **Measured**. And all time unit will translated to ``second`` to unify the time unit.
+
+Parameter
+--------------
+Parameter time unit is fixed to be **'day'** and unchangable.
+So the Unit column in Parameter sheet of ``BioModel.xlsx`` is actually an annotation, it won't affect the calcualte result.
+
+Measured
+--------------
+Measured time unit is setted by the TimeUnit column (only 1st row) in Tank sheet of ``DataSet.xlsx``.
+The Component (Measured sheet) and Flow data (Link sheet) will follow this time unit.
+
+
+
+
+timeunit_bioparameter is setted to be 'day' (in Project.bulid()) and cannot change.
+
+
+
+
+
+
+
+
+
+
+
+Snapshot
+===========
+.. image:: _static/images/Fig5__Sim_Targets__.png
+.. image:: _static/images/Project__Eva_UncertaintyPCDF__(59).png
+
+
+.. important::
+
+    Let's Build Models Together.
+
+
+
+.. important::
+
+    This sample documentation was generated on |today|, and is rebuilt weekly.
+
+
+

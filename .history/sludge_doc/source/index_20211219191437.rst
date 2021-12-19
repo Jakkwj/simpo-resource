@@ -1,0 +1,100 @@
+Sludge
+=======
+
+
+
+.. toctree::
+    :hidden:
+    :caption: about
+    :titlesonly:
+
+    模块
+    about
+
+
+
+Welcome to Sludge's documentation.
+
+Introduction
+=============
+
+
+Sludge is a **SaaS platform** for calculating the matrix like biochemical models (such as activated sludge models 1, 2 and 3). The aim of this project is to help people to build and calculate their own wasterwater treatment process easily.
+The input of the whole process are only 3 excel xlsx files. By this way, you can check and make your own biological model conveniently.
+
+
+The key features are:
+
+- **Simple**:
+
+  + only 3 excel files and you are good to go
+- **Sharable**
+- **Trackable**
+
+
+
+This is a demo site for |theme_display|, generated as part of
+`Sphinx Themes Gallery <https://sphinx-themes.org>`_.
+
+
+Time Unit
+==============
+The time unit will only follow the self.TimeUnit_SampleRate.
+If the self.TimeUnit_SampleRate is minute, all the trace time will calculate follow minute, plot_target columns will follow self.TimeUnit_Measured.
+not matter what, dt_one_second = 1s, this means grid will only calcualte 1s interval
+
+
+timeunit_bioparameter is setted to be 'day' (in Project.bulid()) and cannot change.
+
+
+
+
+
+
+
+
+
+
+
+Snapshot
+===========
+.. image:: _static/images/Fig5__Sim_Targets__.png
+.. image:: _static/images/Project__Eva_UncertaintyPCDF__(59).png
+
+
+.. important::
+
+    Let's Build Models Together.
+
+
+
+.. important::
+
+    This sample documentation was generated on |today|, and is rebuilt weekly.
+
+
+
+
+Exploration
+===========
+
+.. toctree::
+    :hidden:
+
+    kitchen-sink/index
+
+..     :caption: This is a caption
+..     :titlesonly:
+
+..     placeholder-one
+..     placeholder-two
+..     really-long-title
+..     long-page
+..     External Link <https://www.sphinx-doc.org>
+
+..     :hidden:
+..     :caption: Additional "hidden" Pages
+
+..     placeholder-three
+..     placeholder-four
+..     Sphinx Theme Gallery <https://sphinx-themes.org>

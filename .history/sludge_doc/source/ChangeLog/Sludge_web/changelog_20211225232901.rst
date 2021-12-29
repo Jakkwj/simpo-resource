@@ -1,6 +1,6 @@
-=============
-Change Log
-=============
+===================
+Sludge_web
+===================
 .. 标明日期（要用上面说过的规范）
 .. 标明分类（采用英文）。规范如下git：
 
@@ -13,9 +13,14 @@ Change Log
 
 
 .. toctree::
-
-    Sludge/changelog
-    Sludge_web/changelog
+    :hidden:
 
 
+
+2021-12-25
+====================
+
+- Added
+
+  - Formula editor is going ok
 

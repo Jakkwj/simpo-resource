@@ -24,7 +24,7 @@ Sludge
   - The motive of calculation.detection_limit(1.0e-30) has changed:
 
     - The calculation.detection_limit now forces the biocomponent to it while biocomponent less than it.
-    - For instance: if ``biocomponent(1) < 1.0e-30``, then ``biocomponent(1) = 1.0e-30``.
+    - For instance: if biocomponent(1) < 1.0e-30, then biocomponent(1) = 1.0e-30.
     - By this way, it will make steady state easier(hopefully).
     - NOTE: this method has not been tested yet.
 

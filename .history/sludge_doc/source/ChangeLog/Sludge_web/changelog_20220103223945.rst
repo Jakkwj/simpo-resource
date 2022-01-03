@@ -24,8 +24,6 @@ Sludge_web
 
   - BioModel save to backend seems ok
 
-
-
 - Changed
 
   - Update quasar2 from quasar1

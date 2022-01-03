@@ -24,7 +24,7 @@ Sludge
 
 - Changed
 
-  - The motive of calculation.detection_limit(1.0e-30 by default) has changed:
+  - The motive of calculation.detection_limit(1.0e-30) has changed:
 
     - Now calculation.detection_limit forces the biocomponent equal to it while biocomponent less than it.
     - For instance: if ``biocomponent(1) < 1.0e-30``, then ``biocomponent(1) = 1.0e-30``.

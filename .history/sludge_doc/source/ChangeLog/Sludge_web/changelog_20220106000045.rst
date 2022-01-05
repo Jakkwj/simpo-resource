@@ -25,7 +25,7 @@ Sludge_web
 
   - Add Selection input in BioModel Detail.
 
-    - You could select a standard parameter or component or just type a symbol whatever you like.
+    - You could select a standard parameter or component or just type a symbol whaterev you like.
     - Once you select a standard parameter or component symbol, the rest fields(unit and name) will be filled automatically.
 
 

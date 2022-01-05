@@ -38,8 +38,8 @@ Sludge
 ====================
 - Added
 
-  - Unit column in Parameter(``2nd`` column) sheet of BioModel.xlsx.
-  - Unit row in Matrix sheet(``2nd`` row) of BioModel.xlsx.
+  - Unit column in Parameter(2nd column) sheet of BioModel.xlsx.
+  - Unit row in Matrix sheet(2nd row) of BioModel.xlsx.
 
 - Changed
 

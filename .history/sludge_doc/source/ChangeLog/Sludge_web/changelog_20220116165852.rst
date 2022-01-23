@@ -18,12 +18,7 @@ Sludge_web
 
 
 
-2022-01-23
-====================
 
-- Added
-
-  - Making Components tab in BioModel Detail.
 
 
 

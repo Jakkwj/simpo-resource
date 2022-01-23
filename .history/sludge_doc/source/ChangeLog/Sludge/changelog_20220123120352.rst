@@ -27,13 +27,6 @@ Sludge
     - Unit will be used in plot later.
     - Component order and name must be exactly the same as in Matrix sheet
 
-  - Add Typer class in Checker to wrap some common type, such as pd.DataFrame can be use as Typer.df
-
-
-- Changed
-
-  - Refine some checker
-
 
 
 2022-01-03

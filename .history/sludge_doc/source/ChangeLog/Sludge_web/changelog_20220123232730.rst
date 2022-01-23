@@ -23,7 +23,7 @@ Sludge_web
 
 - Added
 
-  - Making Components tab in BioModel Detail.
+  - Making Components tab in BioModel Detail
 
 
 

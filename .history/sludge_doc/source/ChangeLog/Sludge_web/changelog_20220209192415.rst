@@ -16,6 +16,54 @@ Sludge_web
     :hidden:
 
 
+2022-02-9
+====================
+
+- Changed
+
+  - Refresh BioModel with Typescript are Vue3.
+
+
+
+2022-01-31
+====================
+
+- Changed
+
+  - BioModel and Typescript are getting ok.
+
+
+2022-01-23
+====================
+
+- Added
+
+  - Making Components tab in BioModel Detail.
+
+
+
+
+
+2022-01-16
+====================
+
+- Added
+
+  - Add drag and drop(sortablejs and vuedraggable) in BioModel Parameters.
+  - Making Vue3 setup script(sotre and route seems ok) & Typescript.
+
+
+
+
+
+
+2022-01-07
+====================
+
+- Added
+
+  - Add virtual-scroll to standard parameter(BioModel Detail) selection.
+
 
 
 2022-01-05
@@ -25,7 +73,7 @@ Sludge_web
 
   - Add Selection input in BioModel Detail.
 
-    - You could select a standard parameter or component or just type a symbol whaterev you like.
+    - You could select a standard parameter or component or just type a symbol whatever you like.
     - Once you select a standard parameter or component symbol, the rest fields(unit and name) will be filled automatically.
 
 

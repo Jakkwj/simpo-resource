@@ -16,6 +16,21 @@ Sludge_web
     :hidden:
 
 
+2022-02-9
+====================
+
+- Changed
+
+  - Refresh BioModel with Typescript are Vue3.
+
+
+
+2022-01-31
+====================
+
+- Changed
+
+  - BioModel and Typescript are getting ok.
 
 
 2022-01-23

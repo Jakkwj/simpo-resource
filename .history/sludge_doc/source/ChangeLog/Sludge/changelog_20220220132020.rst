@@ -16,6 +16,42 @@ Sludge
     :hidden:
 
 
+2022-02-20
+====================
+
+- Changed
+
+
+  - Fixed result.py bugs in result_file initial
+
+
+
+2022-02-19
+====================
+
+- Changed
+
+  - Upgrading grouping comment in biomodel._get_group().
+
+
+
+2022-01-23
+====================
+
+- Added
+
+  - Add Component sheet in BioModel input xlsx file:
+
+    - add Unit and Name infomation in Component sheet.
+    - Unit will be used in plot later.
+    - Component order and name must be exactly the same as in Matrix sheet
+
+  - Add Typer class in Checker to wrap some common type, such as pd.DataFrame can be use as Typer.df
+
+
+- Changed
+
+  - Refine some checker
 
 
 
@@ -38,8 +74,8 @@ Sludge
 ====================
 - Added
 
-  - Unit column in Parameter(``2nd`` column) sheet of BioModel.xlsx.
-  - Unit row in Matrix sheet(``2nd`` row) of BioModel.xlsx.
+  - Unit column in Parameter(2nd column) sheet of BioModel.xlsx.
+  - Unit row in Matrix sheet(2nd row) of BioModel.xlsx.
 
 - Changed
 

@@ -15,6 +15,7 @@ Change Log
 .. toctree::
 
     Sludge/changelog
+    Sludge_pro/changelog
     Sludge_web/changelog
 
 

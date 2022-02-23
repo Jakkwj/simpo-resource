@@ -16,14 +16,42 @@ Sludge
     :hidden:
 
 
+2022-02-19
+====================
+
+- Changed
+
+  - Upgrading new grouping comment in biomodel._get_group().
+  -
+
+2022-01-23
+====================
+
+- Added
+
+  - Add Component sheet in BioModel input xlsx file:
+
+    - add Unit and Name infomation in Component sheet.
+    - Unit will be used in plot later.
+    - Component order and name must be exactly the same as in Matrix sheet
+
+  - Add Typer class in Checker to wrap some common type, such as pd.DataFrame can be use as Typer.df
+
+
+- Changed
+
+  - Refine some checker
+
+
+
 2022-01-03
 ====================
 
 - Changed
 
-  - The motive of calculation.detection_limit(1.0e-30) has changed:
+  - The motive of calculation.detection_limit(``1.0e-30`` by default) has changed:
 
-    - The calculation.detection_limit now forces the biocomponent to it while biocomponent less than it.
+    - Now calculation.detection_limit forces the biocomponent equal to it while biocomponent less than it.
     - For instance: if ``biocomponent(1) < 1.0e-30``, then ``biocomponent(1) = 1.0e-30``.
     - By this way, it will make steady state easier(hopefully).
     - NOTE: this method has not been tested yet.

@@ -1,6 +1,6 @@
-=============
-Change Log
-=============
+===================
+Sludge_pro
+===================
 .. 标明日期（要用上面说过的规范）
 .. 标明分类（采用英文）。规范如下git：
 
@@ -15,7 +15,24 @@ Change Log
 .. toctree::
     :hidden:
 
-    Sludge/changelog
+
+2022-02-20
+====================
+
+- Changed
+
+
+  - Fixed result_pro.py bugs in result_file initial.
+
+    - inital
 
 
 
+
+
+2022-02-19
+====================
+
+- Addded
+
+  - Making solution_pro._get_group().

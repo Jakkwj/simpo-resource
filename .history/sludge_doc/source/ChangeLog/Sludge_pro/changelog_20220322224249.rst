@@ -16,6 +16,33 @@ Sludge_pro
     :hidden:
 
 
+
+
+2022-03-22
+====================
+
+- Added
+
+  - Trying inflow and flow evaluation
+
+
+
+
+2022-02-20
+====================
+
+- Changed
+
+
+  - Fixed result_pro.py bugs in result_file initial.
+
+    - Initial result_file will be created correctly right now.
+    - Result_file will be close correctly right now.
+
+
+
+
+
 2022-02-19
 ====================
 

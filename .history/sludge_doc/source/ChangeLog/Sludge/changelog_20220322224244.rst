@@ -16,6 +16,62 @@ Sludge
     :hidden:
 
 
+
+
+
+2022-03-22
+====================
+
+- Added
+
+  - Trying inflow and flow evaluation
+
+
+
+
+trying inflow and flow evaluation
+
+2022-02-23
+====================
+
+- Changed
+
+
+  - Logic of Grouping has changed a lot:
+
+    - A BioModel.Matrix Group describes the sum of some Components equal to a certain value in any circumstances. A Group is actually a constraint, so Group Components cannot be simply random when conducting LHS/GA evaluation.
+    - A BioModel.Matrix Group cannot contain overlap Components and Components value must be number(not a Parameter), cause we don't support this kind of evaluation yet.
+    - Solution.Varable Group Sum of Component_Tank must be equal to DataSet.Measured Target initial value, and must be equal to corresponding Group Sum(default Group Sum) in BioModel.Matrix Group.
+    - Only a BioModel.Matrix Group will be sync with Evaluation status(solution_pro._sync_group_component_evaluation()), rather than a Group from Solution.Conversion.
+
+
+
+
+
+
+
+
+2022-02-20
+====================
+
+- Changed
+
+
+  - Fixed result.py bugs in result_file initial
+
+    - Result_file will be close correctly right now.
+
+
+
+2022-02-19
+====================
+
+- Changed
+
+  - Upgrading grouping comment in biomodel._get_group().
+
+
+
 2022-01-23
 ====================
 
@@ -23,7 +79,7 @@ Sludge
 
   - Add Component sheet in BioModel input xlsx file:
 
-    - add Unit and Name infomation in Component sheet.
+    - Add Unit and Name infomation in Component sheet.
     - Unit will be used in plot later.
     - Component order and name must be exactly the same as in Matrix sheet
 
@@ -33,7 +89,6 @@ Sludge
 - Changed
 
   - Refine some checker
-  - Add
 
 
 

@@ -30,8 +30,6 @@ Sludge
     - Then, Inflow will be calculation correctly
     - If all the targets in Inflow are the same as components, then it won't convert.
 
-  - Unit will be add in Component plotter.
-
 
 
 

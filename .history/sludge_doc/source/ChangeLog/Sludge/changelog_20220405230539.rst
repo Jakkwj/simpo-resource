@@ -27,10 +27,6 @@ Sludge
     - Loop each Inflow, if there are targets which cannot find in component, convert them
     - Find the sum relation in Solution.conversion, and then find the proportional relationship in Solution.variable
     - Inflow will convert all the targets into components
-    - Then, Inflow will be calculation correctly
-    - If all the targets in Inflow are the same as components, then it won't convert.
-
-  - Unit will be add in Component plotter.
 
 
 

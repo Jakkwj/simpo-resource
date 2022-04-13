@@ -26,7 +26,7 @@ Sludge
 
 - Fixed
 
-  - Fixed lots of bugs and Test lots of situation, seems ok
+  - Test lots of situation, seems ok
 
 
 

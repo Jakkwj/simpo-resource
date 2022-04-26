@@ -16,6 +16,23 @@ Sludge
     :hidden:
 
 
+2022-04-26
+====================
+
+- Added
+
+  - solution._check_matrix_initial_value(), to avoid a division by zero error.
+
+- Changed
+
+  - DataSet.Flow can be empty.
+
+
+
+
+
+
+
 2022-04-13
 ====================
 

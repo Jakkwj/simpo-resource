@@ -21,7 +21,7 @@ Sludge
 
 - Changed
 
-  - Solution Weight input format changed.
+  - Solution weight input format changed.
 
 
 

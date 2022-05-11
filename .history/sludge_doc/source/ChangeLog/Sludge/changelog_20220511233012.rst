@@ -16,6 +16,57 @@ Sludge
     :hidden:
 
 
+2022-05-11
+====================
+
+- Changed
+
+  - Match with web version refine.
+
+
+
+2022-05-02
+====================
+
+- Changed
+
+  - Solution Weight input format changed.
+
+
+
+2022-04-26
+====================
+
+- Added
+
+  - solution._check_matrix_initial_value(), to avoid a division by zero error.
+
+- Changed
+
+  - DataSet.Flow can be empty.
+
+
+
+
+
+
+
+2022-04-13
+====================
+
+- Added
+
+  - Unit and Target has been seperated in DataSet input excel file.
+  - Target has been seperated in Solution input excel file.
+
+- Fixed
+
+  - Fixed lots of bugs and Test lots of situation, seems ok
+
+
+
+
+
 
 2022-04-05
 ====================
@@ -27,6 +78,10 @@ Sludge
     - Loop each Inflow, if there are targets which cannot find in component, convert them
     - Find the sum relation in Solution.conversion, and then find the proportional relationship in Solution.variable
     - Inflow will convert all the targets into components
+    - Then, Inflow will be calculation correctly
+    - If all the targets in Inflow are the same as components, then it won't convert.
+
+  - Unit will be add in Component plotter.
 
 
 

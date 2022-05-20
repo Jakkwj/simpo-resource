@@ -16,6 +16,17 @@ Sludge
     :hidden:
 
 
+2022-05-20
+====================
+
+- Changed
+
+  - DataSet empty input seems ok.
+
+
+
+
+
 2022-05-11
 ====================
 

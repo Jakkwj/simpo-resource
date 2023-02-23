@@ -1,0 +1,70 @@
+=============
+Quick Start
+=============
+.. 标明日期（要用上面说过的规范）
+.. 标明分类（采用英文）。规范如下git：
+
+.. 'Added' 添加的新功能
+.. 'Changed' 功能变更
+.. 'Deprecated' 不建议使用，未来会删掉
+.. 'Removed' 之前不建议使用的功能，这次真的删掉了
+.. 'Fixed' 改的bug
+.. 'Security' 改的有关安全相关bug
+
+
+.. toctree::
+
+    .. QuickStart/index
+
+.. - :download:`Title <_static/images/Fig5__Sim_Targets__.png>`
+.. composable and extensible highly reused in
+
+This core idea of **OpenASM** is composable and reusable of models and datas, and the solutions of them.
+The 3 essential elements of **OpenASM** are **BioModel** (model), **DataSet** (data) and **Project** (solution).
+
+
+.. BioModel
+.. --------------
+.. BioModel is a biochemical model that desribes the structure of the biological system.
+
+
+Super!
+--------------
+Since clone a Project from the public Project repository, will also clone the correspoding BioModel and Dataset, you can
+
+
+
+
+
+Step 1: Create a BioModel
+--------------
+There are a few ways to create a BioModel:
+
+1. Create an empty BioModel and make the detial later.
+2. Create a BioModel from a template xlsx file while creating.
+3. Clone a BioModel from the public BioModel repository.
+
+Step 2: Create a DataSet
+--------------
+There are a few ways to create a DataSet:
+
+1. Create an empty DataSet and make the detial later.
+2. Create a DataSet from a template xlsx file while creating.
+3. Create a DataSet from a preset layout and/or target(from a BioModel) while creating.
+4. Clone a DataSet from the public DataSet repository.
+
+Step 3: Create a Project
+--------------
+.. You can only make a Project after created a BioModel and Dataset.
+You must specify a BioModel and Dataset while creating a Project.
+There are a few ways to create a Project:
+
+1. Create an empty Project and make the detial later. If the BioModel's components are all the same as the DataSet's targets, the Project's detial will be created automatically.
+2. Create a Project from a template xlsx file while creating.
+3. Clone a Project from the public Project repository.
+
+
+
+
+Actually this will also clone the correspoding BioModel and Dataset, so the
+

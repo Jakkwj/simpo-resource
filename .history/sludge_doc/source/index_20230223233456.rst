@@ -9,7 +9,7 @@ Sludge
     :caption: Tutorials
     :titlesonly:
 
-    Tutorials/quick_start
+    Tutorials/index
 
 
 .. toctree::

@@ -6,15 +6,15 @@ Sludge
 
 .. toctree::
     :hidden:
-    :caption: Tutorials
+    :caption: TUTORIALS
     :titlesonly:
 
-    Tutorials/quick_start
+    模块/index
 
 
 .. toctree::
     :hidden:
-    :caption: Explanation
+    :caption: EXPLANATION
     :titlesonly:
 
     模块/index

@@ -188,11 +188,11 @@ Step 4: Create a Project
 You must specify a BioModel and a Dataset to combine them while creating a Project.
 There are a few ways to create a Project (choose 1 from 3 in below):
 
-1. Create an empty Project, edit and parsed save the detial later to make it work.
+1. Create an empty Project and make the detial later to make it work.
 
    - If the BioModel's components are all the same as the DataSet's targets, the Project's detial will be created automatically.
    - Otherwise, you must specify the conversion between the BioModel's components and the DataSet's targets.
-2. Or create a Project from a :download:`template xlsx file <../_static/template_file/Solution.xlsx>`.
+2. Or create a Project from a :download:`template xlsx file <../_static/template_file/Solution.xlsx>` while creating.
 3. Or clone a Project from the public Project repository.
 
 .. 2. Or create a Project from a `template xlsx file <http://111.230.245.215/api/download/template/solution>`_ while creating.
@@ -206,7 +206,7 @@ There are a few ways to create a Project (choose 1 from 3 in below):
 Step 5: Solve
 =============
 - Select a calcualtion engine: Simulaiton, Sensitivity, Uncertainty or Estimation.
-- Hit the START button and wait for the results, **OpenASM** will plot everything after the calcualtion process done.
+- Hit the START button and wait for the results, **OpenASM** will plot everything after calcualtion done.
 
 
 

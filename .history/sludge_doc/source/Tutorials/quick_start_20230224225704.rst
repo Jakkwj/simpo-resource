@@ -206,7 +206,7 @@ There are a few ways to create a Project (choose 1 from 3 in below):
 Step 5: Solve
 =============
 - Select a calcualtion engine: Simulaiton, Sensitivity, Uncertainty or Estimation.
-- Hit the START button and wait for the results, **OpenASM** will plot everything after the calcualtion process done.
+- Hit the START button and wait for the results, **OpenASM** will plot everything after calcualtion done.
 
 
 

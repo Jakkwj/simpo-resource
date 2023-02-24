@@ -34,11 +34,11 @@ The steps of a completed calcualtion process are:
 
 
 
-- :ref:`Step 1<step_1>`: install the calcualtion client on your computer.
+- :ref:`Step 1<step_1>`: install a client on your computer.
 - :ref:`Step 2<step_2>`: create a **BioModel**.
 - :ref:`Step 3<step_3>`: create a **DataSet**.
 - :ref:`Step 4<step_4>`: create a **Project** to combine **BioModel** and **DataSet**.
-- :ref:`Step 5<step_5>`: select a calculation engine (Simulaiton/Sensitivity/Uncertainty/Estimation) to solve them.
+- :ref:`Step 5<step_5>`: select a calculation engine (Simulaiton/Sensitivity/Uncertainty/Estimation) to solve them and wait for the results.
 .. - Solve them by runs the Simulaiton/Sensitivity/Uncertainty/Estimation calcualtion.
 
 .. https://docutils.sourceforge.io/docs/ref/rst/directives.html#generic-admonition
@@ -46,7 +46,7 @@ The steps of a completed calcualtion process are:
 .. admonition:: *The Easiest Way*
  :class: hint
 
-      *After installing the client, clone a Project from the public Project repository is the easiest way to do the whole thing. Since this action will also clone the correspoding BioModel and Dataset, you can just start the calculaiton and wait for the results after this cloning.*
+      *After install the client, clone a Project from the public Project repository is the easiest way to do the whole thing. Since this action will also clone the correspoding BioModel and Dataset, you can just start the calculaiton and wait for the results after this cloning.*
 
 
 
@@ -68,9 +68,9 @@ The steps of a completed calcualtion process are:
 
 .. _step_1:
 
-Step 1: Install the calcualtion client
+Step 1: Install a client
 =============
-Download the calcualtion client and install it:
+Download the client and install it:
 
 - :download:`Windows <../_static/sludge_client/windows/sludge_client_setup.exe>`
 - :download:`Ubuntu <../_static/sludge_client/linux/sludge_client_setup.sh>`: download and run: ``sudo chmod +x sludge_client_setup.sh && ./sludge_client_setup.sh``
@@ -96,38 +96,37 @@ Step 2: Create a BioModel
 .. --------------
 
 
-.. .. image:: ../_static/images/quick_start/Peek2023-02-2421-42.gif
+.. image:: ../_static/images/quick_start/Peek2023-02-2421-42.gif
 
 
-.. .. image:: ../_static/images/quick_start/1.jpg
-..  :name: my picture
-..  :align: center
-..  :scale: 75%
+.. image:: ../_static/images/quick_start/1.jpg
+ :name: my picture
+ :align: center
+ :scale: 75%
 
 
-There are a few ways to create a BioModel (choose 1 from 4 in below):
+There are a few ways to create a BioModel (choose 1 from 4):
 
 .. :width: 4in
 .. :height: 4in
 
-1. Create an empty BioModel, edit and parsed save the detial later to make it work.
-
-
-   - Add new components.
-   - Add new paramters.
-   - Add new processes (in Matrix tab).
+1. Create an empty BioModel and input the detial later to make it work.
 
    .. image:: ../_static/images/quick_start/2.jpg
     :align: center
     :scale: 75%
 
 
-2. Or create a BioModel from a :download:`template xlsx file <../_static/template_file/BioModel.xlsx>`.
+
+   - Add new components.
+   - Add new paramters.
+   - Add new processes.
+   - Before finished the input, temparary save it to avoid lost the input.
+   - After finished the input, parsed save it to make sure all the input formats are correct.
+2. Or create a BioModel from a :download:`template xlsx file <../_static/template_file/BioModel.xlsx>` while creating.
 3. Or clone a BioModel from the public BioModel repository.
 4. Or clone a Project from the public Project repository would also clone the correspoding BioModel.
 
-..    - Before finished the input, temparary save it to avoid lost the input.
-..    - After finished the input, parsed save it to make sure all the input formats are correct.
 ..    - Optional: release different version to reference it.
    .. 2. Or create a BioModel from a `template xlsx file <http://111.230.245.215/api/download/template/biomodel>`_ while creating.
 .. Detial
@@ -147,34 +146,29 @@ There are a few ways to create a BioModel (choose 1 from 4 in below):
 
 Step 3: Create a DataSet
 =============
-There are a few ways to create a DataSet (choose 1 from 5 in below):
+There are a few ways to create a DataSet (choose 1 from 5 ways in below), after creation you can  release different versions to reference it while creating a Project:
 
-.. , after creation you can  release different versions to reference it while creating a Project:
-
-1. Create an empty DataSet, edit and parsed save the detial later to make it work.
+1. Create an empty DataSet and make the detial later to make it work.
 
    - Add new targets.
    - Add new tanks.
-   - Optional: add new links (inflows, flows and connections). This is unnecessary if your only get independent tanks.
-2. Or create a DataSet from a preset layout and/or target (from a BioModel).
-3. Or create a DataSet from a :download:`template xlsx file <../_static/template_file/DataSet.xlsx>`.
+   - Optional: add new links (inflows/flows/connections). This is unnecessary if your only get independent tanks.
+   - Before finished the input, temparary save it to avoid lost the input.
+   - After finished the input, parsed save it to make sure all the input formats are correct.
+2. Or create a DataSet from a preset layout and/or target (from a BioModel) while creating.
+3. Or create a DataSet from a :download:`template xlsx file <../_static/template_file/DataSet.xlsx>` while creating.
 4. Or clone a DataSet from the public DataSet repository.
 5. Or clone a Project from the public Project repository would also clone the correspoding Dataset.
 
-..    - Before finished the input, temparary save it to avoid lost the input.
-..    - After finished the input, parsed save it to make sure all the input formats are correct.
 ..    - Optional: release different version to reference it.
 .. 3. Or create a DataSet from a `template xlsx file <http://111.230.245.215/api/download/template/dataset>`_ while creating.
 
-.. admonition:: *Layout Flow Chart*
+.. admonition:: *Note*
  :class: note
 
-  *Layout flow chart will be generated automatically after adding links (inflows, flows and connections). You can click and edit the tanks, inflows and flows in the chart.*
-
-
-..   - *Before finished the editing of the detial, temparary save can avoid lost the input.*
-..   - *After finished the editing, parsed save can make sure all the input formats are correct.*
-..   -  *after creation you can  release different versions to reference it while creating a Project*
+  - *After adding some links (inflows/flows/connections), the layout flow chart will be generated automatically. You can click and edit the tank, inflow and flow in the layout flow chart.*
+  - *Before finished the editing of the detial, temparary save can avoid lost the input.*
+  - *After finished the input, parsed save it to make sure all the input formats are correct.*
 
 
 ^^^^^
@@ -186,13 +180,13 @@ Step 4: Create a Project
 =============
 .. You can only make a Project after created a BioModel and Dataset.
 You must specify a BioModel and a Dataset to combine them while creating a Project.
-There are a few ways to create a Project (choose 1 from 3 in below):
+There are a few ways to create a Project (choose 1 from 3):
 
-1. Create an empty Project, edit and parsed save the detial later to make it work.
+1. Create an empty Project and make the detial later to make it work.
 
    - If the BioModel's components are all the same as the DataSet's targets, the Project's detial will be created automatically.
    - Otherwise, you must specify the conversion between the BioModel's components and the DataSet's targets.
-2. Or create a Project from a :download:`template xlsx file <../_static/template_file/Solution.xlsx>`.
+2. Or create a Project from a :download:`template xlsx file <../_static/template_file/Solution.xlsx>` while creating.
 3. Or clone a Project from the public Project repository.
 
 .. 2. Or create a Project from a `template xlsx file <http://111.230.245.215/api/download/template/solution>`_ while creating.
@@ -206,7 +200,7 @@ There are a few ways to create a Project (choose 1 from 3 in below):
 Step 5: Solve
 =============
 - Select a calcualtion engine: Simulaiton, Sensitivity, Uncertainty or Estimation.
-- Hit the START button and wait for the results, **OpenASM** will plot everything after the calcualtion process done.
+- Hit the START button and wait for the results, **OpenASM** will plot everything after calcualtion done.
 
 
 

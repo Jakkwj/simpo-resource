@@ -15,14 +15,17 @@
 # sys.path.insert(0, os.path.abspath('.'))
 
 
+from datetime import datetime
+
+
 # -- Project information -----------------------------------------------------
 
 project = 'Sludge'
-copyright = '2021, jakkwj'
-author = 'jakkwj'
+copyright = f'{datetime.now().year}, Jakkwj'
+author = 'Jakkwj'
 
 # The full version, including alpha/beta/rc tags
-release = 'v0.0.1'
+release = 'v0.2.0'
 
 
 # -- General configuration ---------------------------------------------------

@@ -15,11 +15,15 @@
 # sys.path.insert(0, os.path.abspath('.'))
 
 
+from datetime import datetime
+today = datetime.now()
+
+
 # -- Project information -----------------------------------------------------
 
 project = 'Sludge'
-copyright = '2021, jakkwj'
-author = 'jakkwj'
+copyright = f'{today.yea}, Jakkwj'
+author = 'Jakkwj'
 
 # The full version, including alpha/beta/rc tags
 release = 'v0.0.1'
@@ -58,7 +62,40 @@ exclude_patterns = []
 # html_theme = 'alabaster'
 # html_theme = 'classic'
 # html_theme = 'karma_sphinx_theme'
-html_theme = 'sphinx_material'
+html_theme = 'sphinx_rtd_theme'
+# html_theme = 'sphinx_material'
+# theme_primary = '#2601ee'
+
+# # https://github.com/bashtage/sphinx-material
+# html_theme_options = {
+
+#     # Set the name of the project to appear in the navigation.
+#     'nav_title': 'Sludge',
+
+#     # Set you GA account ID to enable tracking
+#     # 'google_analytics_account': 'UA-XXXXX',
+
+#     # Specify a base_url used to generate sitemap.xml. If not
+#     # specified, then no sitemap will be built.
+#     # 'base_url': 'https://project.github.io/project',
+
+#     # Set the color and the accent color
+#     'color_primary': '#526cfe',
+#     # 'color_primary': 'blue',
+#     'color_accent': 'light-blue',
+
+#     # Set the repo location to get a badge with stats
+#     'repo_url': 'https://github.com/Jakkwj/sludge_doc',
+#     'repo_name': 'sludge_doc',
+
+#     # Visible levels of the global TOC; -1 means unlimited
+#     'globaltoc_depth': 3,
+#     # If False, expand all TOC entries
+#     'globaltoc_collapse': False,
+#     # If True, show hidden TOC entries
+#     'globaltoc_includehidden': False,
+# }
+
 # html_theme = 'sphinx_rtd_theme'
 # import sphinx_pdj_theme
 # html_theme = 'sphinx_pdj_theme'

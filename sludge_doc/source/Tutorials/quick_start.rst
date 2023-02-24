@@ -19,62 +19,194 @@ Quick Start
 .. - :download:`Title <_static/images/Fig5__Sim_Targets__.png>`
 .. composable and extensible highly reused in
 
-This core idea of **OpenASM** is composable and reusable of models and datas, and the solutions of them.
-The 3 essential elements of **OpenASM** are **BioModel** (model), **DataSet** (data) and **Project** (solution).
-The way to solute a BioModel and a Dataet,
-The steps of the calcualtion are:
+.. 交叉索引的位置
+.. https://zh-sphinx-doc.readthedocs.io/en/latest/markup/inline.html#ref-role
 
-- Create a BioModel.
-- Create a DataSet.
-- Specify a BioModel and Dataet while creating a Project.
-- Solute them by runs the Simulaiton/Sensitivity/Uncertainty/Estimation calcualtion.
+The 3 essential elements of **OpenASM** platform are:
 
+- **BioModel** (model).
+- **DataSet** (data).
+- **Project** (solution).
+
+The steps of a completed calcualtion process are:
+
+
+
+
+
+- :ref:`Step 1<step_1>`: install a client on your computer.
+- :ref:`Step 2<step_2>`: create a **BioModel**.
+- :ref:`Step 3<step_3>`: create a **DataSet**.
+- :ref:`Step 4<step_4>`: create a **Project** to combine **BioModel** and **DataSet**.
+- :ref:`Step 5<step_5>`: select a calculation engine (Simulaiton/Sensitivity/Uncertainty/Estimation) to solve them and wait for the results.
+.. - Solve them by runs the Simulaiton/Sensitivity/Uncertainty/Estimation calcualtion.
+
+.. https://docutils.sourceforge.io/docs/ref/rst/directives.html#generic-admonition
+..  "attention", "caution", "danger", "error", "hint", "important", "note", "tip", "warning"
+.. admonition:: *The Easiest Way*
+ :class: hint
+
+      *After install the client, clone a Project from the public Project repository is the easiest way to do the whole thing. Since this action will also clone the correspoding BioModel and Dataset, you can just start the calculaiton and wait for the results after this cloning.*
+
+
+
+
+
+.. .. py:function:: spam (eggs)
+..                  ham (eggs)
+
+..    Spam or ham the foo.
+
+
+
+^^^^^
 
 .. BioModel
 .. --------------
 .. BioModel is a biochemical model that desribes the structure of the biological system.
 
 
-The easiest way for making a Project
+.. _step_1:
+
+Step 1: Install a client
 =============
-Clone a Project from the public Project repository is an easy way to create a project.
-Since this action will also clone the correspoding BioModel and Dataset, so
-you can get everything runs after this cloning.
+Download the client and install it:
+
+- :download:`Windows <../_static/sludge_client/windows/sludge_client_setup_0.2.0.exe>`
+- :download:`Ubuntu <../_static/sludge_client/linux/sludge_client_setup_0.2.0.sh>`: download and run: ``sudo chmod +x sludge_client_setup.sh && ./sludge_client_setup.sh``
+.. - `Windows <http://111.230.245.215/api/download/client/installer/windows>`_
+.. - `Ubuntu <http://111.230.245.215/api/download/client/installer/linux>`_: download and run: ``sudo chmod +x sludge_client_setup.sh && ./sludge_client_setup.sh``
+
+
+.. .. code-block:: bash
+
+..     sudo chmod +x sludge_client_setup.sh && ./sludge_client_setup.sh
 
 
 
-A normal way for making a Project
+^^^^^
+
+
+.. _step_2:
+
+Step 2: Create a BioModel
 =============
 
-Step 1: Create a BioModel
---------------
-There are a few ways to create a BioModel:
+.. Creation
+.. --------------
 
-1. Create an empty BioModel and make the detial later.
-2. Create a BioModel from a template xlsx file while creating.
-3. Clone a BioModel from the public BioModel repository.
 
-Step 2: Create a DataSet
---------------
-There are a few ways to create a DataSet:
+.. image:: ../_static/images/quick_start/1.jpg
+ :name: my picture
+ :align: center
+ :scale: 75%
 
-1. Create an empty DataSet and make the detial later.
-2. Create a DataSet from a template xlsx file while creating.
-3. Create a DataSet from a preset layout and/or target(from a BioModel) while creating.
-4. Clone a DataSet from the public DataSet repository.
 
-Step 3: Create a Project
---------------
+There are a few ways to create a BioModel (choose 1 from 4):
+
+.. :width: 4in
+.. :height: 4in
+
+1. Create an empty BioModel and input the detial later to make it work.
+
+   .. image:: ../_static/images/quick_start/2.jpg
+    :align: center
+    :scale: 75%
+
+
+
+   - Add new components.
+   - Add new paramters.
+   - Add new processes.
+   - Before finished the input, temparary save it to avoid lost the input.
+   - After finished the input, parsed save it to make sure all the input formats are correct.
+   - Optional: release different version to reference it.
+   .. 2. Or create a BioModel from a `template xlsx file <http://111.230.245.215/api/download/template/biomodel>`_ while creating.
+2. Or create a BioModel from a :download:`template xlsx file <../_static/template_file/BioModel.xlsx>` while creating.
+3. Or clone a BioModel from the public BioModel repository.
+4. Or clone a Project from the public Project repository would also clone the correspoding BioModel.
+
+.. Detial
+.. --------------
+
+.. If you create an empty BioModel, you have to make the detial to make it work.
+
+
+
+
+
+^^^^^
+
+
+
+.. _step_3:
+
+Step 3: Create a DataSet
+=============
+There are a few ways to create a DataSet (choose 1 from 5):
+
+1. Create an empty DataSet and make the detial later to make it work.
+
+   - Add new targets.
+   - Add new tanks.
+   - Optional: add new links (inflows/flows/connections). This is unnecessary if your only get Batch reactors.
+   - Before finished the input, temparary save it to avoid lost the input.
+   - After finished the input, parsed save it to make sure all the input formats are correct.
+   - Optional: release different version to reference it.
+2. Or create a DataSet from a preset layout and/or target (from a BioModel) while creating.
+3. Or create a DataSet from a :download:`template xlsx file <../_static/template_file/DataSet.xlsx>` while creating.
+4. Or clone a DataSet from the public DataSet repository.
+5. Or clone a Project from the public Project repository would also clone the correspoding Dataset.
+
+.. 3. Or create a DataSet from a `template xlsx file <http://111.230.245.215/api/download/template/dataset>`_ while creating.
+
+.. admonition:: *Layout Flow Chart*
+ :class: note
+
+  *After adding some links (inflows/flows/connections), the layout flow chart will be generated automatically.*
+  *You can click and edit the tank, inflow and flow in the layout flow chart.*
+
+^^^^^
+
+
+.. _step_4:
+
+Step 4: Create a Project
+=============
 .. You can only make a Project after created a BioModel and Dataset.
-You must specify a BioModel and Dataset while creating a Project.
-There are a few ways to create a Project:
+You must specify a BioModel and a Dataset to combine them while creating a Project.
+There are a few ways to create a Project (choose 1 from 3):
 
-1. Create an empty Project and make the detial later. If the BioModel's components are all the same as the DataSet's targets, the Project's detial will be created automatically.
-2. Create a Project from a template xlsx file while creating.
-3. Clone a Project from the public Project repository.
+1. Create an empty Project and make the detial later to make it work.
+
+   - If the BioModel's components are all the same as the DataSet's targets, the Project's detial will be created automatically.
+   - Otherwise, you must specify the conversion between the BioModel's components and the DataSet's targets.
+2. Or create a Project from a :download:`template xlsx file <../_static/template_file/Solution.xlsx>` while creating.
+3. Or clone a Project from the public Project repository.
+
+.. 2. Or create a Project from a `template xlsx file <http://111.230.245.215/api/download/template/solution>`_ while creating.
+
+^^^^^
 
 
-Solution
+
+.. _step_5:
+
+Step 5: Solve
 =============
-- Select a calcualtion engine(Simulaiton/Sensitivity/Uncertainty/Estimation).
-- Hit the START button and wait for the result, **OpenASM** will plot everything after calcualtion.
+- Select a calcualtion engine: Simulaiton, Sensitivity, Uncertainty or Estimation.
+- Hit the START button and wait for the results, **OpenASM** will plot everything after calcualtion done.
+
+
+
+
+
+
+.. ^^^^^
+
+
+.. Tips: The easiest way to try everything
+.. ===============
+.. After install the client, clone a Project from the public Project repository is the easiest way to do the whole thing.
+.. Since this action will also clone the correspoding BioModel and Dataset,
+.. you can get everything runs after this cloning.

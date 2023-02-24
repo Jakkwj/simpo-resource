@@ -37,19 +37,29 @@ Sludge is a **SaaS platform** for calculating the matrix like biochemical models
 The input of the whole process are only 3 excel xlsx files. By this way, you can check and make your own biological model conveniently.
 
 
-The key features are:
+The core ideas of **OpenASM** platform are:
 
-- **Simple**:
-
-  + only 3 excel files and you are good to go
-- **Sharable**
-- **Trackable**
-
+- **Simple**: provides a convenient solution to simulate and evaluate the modles and datas, at most 3 xlsx files and you are good to go.
+- **Composable**: one can arbitrary combine the modles and datas only if the model's components are the same as the data's targets.
+- **Sharable**: modles and datas can be reused and shared to the community.
+- **Trackable**: all the algorithms are open source, the modle's structure and the data authenticity can be tracked effectively.
 
 
-This is a demo site for |theme_display|, generated as part of
-`Sphinx Themes Gallery <https://sphinx-themes.org>`_.
+.. The key features are:
 
+.. - **Simple**:
+
+..   + only 3 excel files and you are good to go
+.. - **Composable**
+.. - **Sharable**
+.. - **Trackable**
+
+
+
+.. This is a demo site for |theme_display|, generated as part of
+.. `Sphinx Themes Gallery <https://sphinx-themes.org>`_.
+
+^^^^^
 
 Time Unit
 ==============
@@ -75,7 +85,7 @@ The Component (Measured sheet) and Flow (Link sheet) data will follow this time 
 
 
 
-
+^^^^^
 
 
 
@@ -87,6 +97,7 @@ Snapshot
 .. image:: _static/images/Fig5__Sim_Targets__.png
 .. image:: _static/images/Project__Eva_UncertaintyPCDF__(59).png
 
+^^^^^
 
 .. important::
 

@@ -1,3 +1,9 @@
+# 安装
+```bash
+python -m pip install -i https://mirrors.aliyun.com/pypi/simple/ install sphinx sphinx-autobuild sphinx_rtd_theme
+
+```
+
 # Documentation:
 https://sludge.readthedocs.io/en/latest
 

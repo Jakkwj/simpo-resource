@@ -117,10 +117,12 @@ There are a few ways to create a BioModel (choose 1 from 4 in below):
    - Add new paramters.
    - Add new processes (in Matrix tab).
 
-   .. image:: ../_static/images/quick_start/2.jpg
+   .. image:: ../_static/images/quick_start/step2/1.gif
     :align: center
-    :scale: 75%
+    :width: 7in
+    :height: 3.3in
 
+   ..  :scale: 100%
 
 2. Or create a BioModel from a :download:`template xlsx file <../_static/template_file/BioModel.xlsx>`.
 3. Or clone a BioModel from the public BioModel repository.

@@ -112,21 +112,37 @@ There are a few ways to create a BioModel (choose 1 from 4 in below):
 
 1. Create an empty BioModel, edit and parsed save the detial later to make it work.
 
-
    - Add new components.
    - Add new paramters.
    - Add new processes (in Matrix tab).
 
-   .. image:: ../_static/images/quick_start/step2/1.gif
-    :align: center
-    :width: 7in
-    :height: 3.3in
+    .. image:: ../_static/images/quick_start/step2/1.gif
+        :align: center
+        :width: 7in
+        :height: 3.3in
 
    ..  :scale: 100%
 
 2. Or create a BioModel from a :download:`template xlsx file <../_static/template_file/BioModel.xlsx>`.
+
+    .. image:: ../_static/images/quick_start/step2/2.gif
+        :align: center
+        :width: 7in
+        :height: 3.3in
+
 3. Or clone a BioModel from the public BioModel repository.
+
+    .. image:: ../_static/images/quick_start/step2/3.gif
+        :align: center
+        :width: 7in
+        :height: 3.3in
+
 4. Or clone a Project from the public Project repository would also clone the correspoding BioModel.
+
+    .. image:: ../_static/images/quick_start/step2/4.gif
+        :align: center
+        :width: 7in
+        :height: 3.3in
 
 ..    - Before finished the input, temparary save it to avoid lost the input.
 ..    - After finished the input, parsed save it to make sure all the input formats are correct.
@@ -169,7 +185,7 @@ There are a few ways to create a DataSet (choose 1 from 5 in below):
 .. 3. Or create a DataSet from a `template xlsx file <http://111.230.245.215/api/download/template/dataset>`_ while creating.
 
 .. admonition:: *Layout Flow Chart*
- :class: note
+    :class: note
 
   *Layout flow chart will be generated automatically after adding links (inflows, flows and connections). You can click and edit the tanks, inflows and flows in the chart.*
 

@@ -174,10 +174,44 @@ There are a few ways to create a DataSet (choose 1 from 5 in below):
    - Add new targets.
    - Add new tanks.
    - Optional: add new links (inflows, flows and connections). This is unnecessary if your only get independent tanks.
+
+
+    .. image:: ../_static/images/quick_start/step3/1.gif
+        :align: center
+        :width: 7in
+        :height: 3.3in
+
 2. Or create a DataSet from a preset layout and/or target (from a BioModel).
+
+    .. image:: ../_static/images/quick_start/step3/2.gif
+        :align: center
+        :width: 7in
+        :height: 3.3in
+
 3. Or create a DataSet from a :download:`template xlsx file <../_static/template_file/DataSet.xlsx>`.
+
+
+    .. image:: ../_static/images/quick_start/step3/3.gif
+        :align: center
+        :width: 7in
+        :height: 3.3in
+
 4. Or clone a DataSet from the public DataSet repository.
+
+    .. image:: ../_static/images/quick_start/step3/4.gif
+        :align: center
+        :width: 7in
+        :height: 3.3in
+
 5. Or clone a Project from the public Project repository would also clone the correspoding Dataset.
+
+
+    .. image:: ../_static/images/quick_start/step3/5.gif
+        :align: center
+        :width: 7in
+        :height: 3.3in
+
+
 
 ..    - Before finished the input, temparary save it to avoid lost the input.
 ..    - After finished the input, parsed save it to make sure all the input formats are correct.
@@ -210,8 +244,25 @@ There are a few ways to create a Project (choose 1 from 3 in below):
 
    - If the BioModel's components are all the same as the DataSet's targets, the Project's detial will be created automatically.
    - Otherwise, you must specify the conversion between the BioModel's components and the DataSet's targets.
+
+    .. image:: ../_static/images/quick_start/step4/1.gif
+        :align: center
+        :width: 7in
+        :height: 3.3in
+
 2. Or create a Project from a :download:`template xlsx file <../_static/template_file/Solution.xlsx>`.
+
+    .. image:: ../_static/images/quick_start/step4/2.gif
+        :align: center
+        :width: 7in
+        :height: 3.3in
+
 3. Or clone a Project from the public Project repository.
+
+    .. image:: ../_static/images/quick_start/step4/3.gif
+        :align: center
+        :width: 7in
+        :height: 3.3in
 
 .. 2. Or create a Project from a `template xlsx file <http://111.230.245.215/api/download/template/solution>`_ while creating.
 

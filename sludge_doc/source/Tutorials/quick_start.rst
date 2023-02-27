@@ -277,6 +277,10 @@ Step 5: Solve
 - Select a calcualtion engine: Simulaiton, Sensitivity, Uncertainty or Estimation.
 - Hit the START button and wait for the results, **OpenASM** will plot everything after the calcualtion process is done.
 
+    .. image:: ../_static/images/quick_start/step5/1.gif
+        :align: center
+        :width: 7in
+        :height: 3.3in
 
 
 

@@ -28,45 +28,99 @@ Sludge
 
 
 
+^^^^
 
 
-
-../_static/images/quick_start/ASM3/ASM3_1.gif
-../_static/images/quick_start/ASM3/ASM3_2.gif
-../_static/images/quick_start/ASM3/ASM3_3.gif
-../_static/images/quick_start/ASM3/ASM3_4.gif
+.. image:: ../_static/images/quick_start/ASM3/ASM3_1.gif
+    :align: center
+    :width: 7in
+    :height: 3.3in
+.. image:: ../_static/images/quick_start/ASM3/ASM3_2.gif
+    :align: center
+    :width: 7in
+    :height: 3.3in
+.. image:: ../_static/images/quick_start/ASM3/ASM3_3.gif
+    :align: center
+    :width: 7in
+    :height: 3.3in
+.. image:: ../_static/images/quick_start/ASM3/ASM3_4.gif
+    :align: center
+    :width: 7in
+    :height: 3.3in
 
 
 
 ^^^^^
 
-../_static/images/quick_start/step2/1.gif
-../_static/images/quick_start/step2/2.gif
-../_static/images/quick_start/step2/3.gif
-../_static/images/quick_start/step2/4.gif
+.. image:: ../_static/images/quick_start/step2/1.gif
+    :align: center
+    :width: 7in
+    :height: 3.3in
+.. image:: ../_static/images/quick_start/step2/2.gif
+    :align: center
+    :width: 7in
+    :height: 3.3in
+.. image:: ../_static/images/quick_start/step2/3.gif
+    :align: center
+    :width: 7in
+    :height: 3.3in
+.. image:: ../_static/images/quick_start/step2/4.gif
+    :align: center
+    :width: 7in
+    :height: 3.3in
 
 ^^^^^
 
-../_static/images/quick_start/step3/1.gif
-../_static/images/quick_start/step3/2.gif
-../_static/images/quick_start/step3/3.gif
-../_static/images/quick_start/step3/4.gif
-../_static/images/quick_start/step3/5.gif
+.. image:: ../_static/images/quick_start/step3/1.gif
+    :align: center
+    :width: 7in
+    :height: 3.3in
+.. image:: ../_static/images/quick_start/step3/2.gif
+    :align: center
+    :width: 7in
+    :height: 3.3in
+.. image:: ../_static/images/quick_start/step3/3.gif
+    :align: center
+    :width: 7in
+    :height: 3.3in
+.. image:: ../_static/images/quick_start/step3/4.gif
+    :align: center
+    :width: 7in
+    :height: 3.3in
+.. image:: ../_static/images/quick_start/step3/5.gif
+    :align: center
+    :width: 7in
+    :height: 3.3in
 
 ^^^^^
 
-../_static/images/quick_start/step4/1.gif
-../_static/images/quick_start/step4/2.gif
-../_static/images/quick_start/step4/3.gif
+.. image:: ../_static/images/quick_start/step4/1.gif
+    :align: center
+    :width: 7in
+    :height: 3.3in
+.. image:: ../_static/images/quick_start/step4/2.gif
+    :align: center
+    :width: 7in
+    :height: 3.3in
+.. image:: ../_static/images/quick_start/step4/3.gif
+    :align: center
+    :width: 7in
+    :height: 3.3in
 
 ^^^^^
 
-../_static/images/quick_start/step5/1.gif
+.. image:: ../_static/images/quick_start/step5/1.gif
+    :align: center
+    :width: 7in
+    :height: 3.3in
 
 ^^^^^
 
 
-../_static/images/gif/ASM3/import_biomodel.gif
+.. image:: ../_static/images/gif/ASM3/import_biomodel.gif
+    :align: center
+    :width: 7in
+    :height: 3.3in
 
 ^^^^^
 
@@ -139,17 +193,29 @@ Sludge
 .. Snapshot
 .. ===========
 .. .. image:: _static/images/Fig5__Sim_Targets__.png
+    :align: center
+    :width: 7in
+    :height: 3.3in
 .. .. image:: _static/images/Project__Eva_UncertaintyPCDF__(59).png
+    :align: center
+    :width: 7in
+    :height: 3.3in
 
 .. ^^^^^
 
 .. .. important::
+    :align: center
+    :width: 7in
+    :height: 3.3in
 
 ..     Let's Build Models Together.
 
 
 
 .. .. important::
+    :align: center
+    :width: 7in
+    :height: 3.3in
 
 ..     This sample documentation was generated on |today|, and is rebuilt weekly.
 

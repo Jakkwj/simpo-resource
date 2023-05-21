@@ -3,126 +3,65 @@ Sludge
 ===========
 
 
+.. .. toctree::
+..     :hidden:
+..     :caption: Client
+..     :titlesonly:
 
+..     Client/index
+
+.. .. toctree::
+..     :hidden:
+..     :caption: Template
+..     :titlesonly:
+
+
+
+.. .. toctree::
+..     :hidden:
+..     :caption: Picture
+..     :titlesonly:
+
+..     Picture/index
+
+
+.. .. toctree::
+..     :hidden:
+..     :caption: Tutorials
+..     :titlesonly:
+
+..     Tutorials/quick_start
+
+
+.. .. toctree::
+..     :hidden:
+..     :caption: Explanation
+..     :titlesonly:
+
+..     模块/index
+
+.. .. toctree::
+..     :hidden:
+..     :caption: about
+
+..     about
+..     ChangeLog/index
+
+
+    .. :hidden:
 .. toctree::
-    :hidden:
-    :caption: Tutorials
-    :titlesonly:
+    :caption: Source
 
-    Tutorials/quick_start
-
-
-.. toctree::
-    :hidden:
-    :caption: Explanation
-    :titlesonly:
-
-    模块/index
-
-.. toctree::
-    :hidden:
-    :caption: about
-
-    about
-    ChangeLog/index
+    Client
+    Template
+    Picture/index
 
 
 
-^^^^
-
-
-.. image:: ../_static/images/quick_start/ASM3/ASM3_1.gif
-    :align: center
-    :width: 7in
-    :height: 3.3in
-.. image:: ../_static/images/quick_start/ASM3/ASM3_2.gif
-    :align: center
-    :width: 7in
-    :height: 3.3in
-.. image:: ../_static/images/quick_start/ASM3/ASM3_3.gif
-    :align: center
-    :width: 7in
-    :height: 3.3in
-.. image:: ../_static/images/quick_start/ASM3/ASM3_4.gif
-    :align: center
-    :width: 7in
-    :height: 3.3in
 
 
 
-^^^^^
 
-.. image:: ../_static/images/quick_start/step2/1.gif
-    :align: center
-    :width: 7in
-    :height: 3.3in
-.. image:: ../_static/images/quick_start/step2/2.gif
-    :align: center
-    :width: 7in
-    :height: 3.3in
-.. image:: ../_static/images/quick_start/step2/3.gif
-    :align: center
-    :width: 7in
-    :height: 3.3in
-.. image:: ../_static/images/quick_start/step2/4.gif
-    :align: center
-    :width: 7in
-    :height: 3.3in
-
-^^^^^
-
-.. image:: ../_static/images/quick_start/step3/1.gif
-    :align: center
-    :width: 7in
-    :height: 3.3in
-.. image:: ../_static/images/quick_start/step3/2.gif
-    :align: center
-    :width: 7in
-    :height: 3.3in
-.. image:: ../_static/images/quick_start/step3/3.gif
-    :align: center
-    :width: 7in
-    :height: 3.3in
-.. image:: ../_static/images/quick_start/step3/4.gif
-    :align: center
-    :width: 7in
-    :height: 3.3in
-.. image:: ../_static/images/quick_start/step3/5.gif
-    :align: center
-    :width: 7in
-    :height: 3.3in
-
-^^^^^
-
-.. image:: ../_static/images/quick_start/step4/1.gif
-    :align: center
-    :width: 7in
-    :height: 3.3in
-.. image:: ../_static/images/quick_start/step4/2.gif
-    :align: center
-    :width: 7in
-    :height: 3.3in
-.. image:: ../_static/images/quick_start/step4/3.gif
-    :align: center
-    :width: 7in
-    :height: 3.3in
-
-^^^^^
-
-.. image:: ../_static/images/quick_start/step5/1.gif
-    :align: center
-    :width: 7in
-    :height: 3.3in
-
-^^^^^
-
-
-.. image:: ../_static/images/gif/ASM3/import_biomodel.gif
-    :align: center
-    :width: 7in
-    :height: 3.3in
-
-^^^^^
 
 
 .. Welcome to Sludge's documentation.

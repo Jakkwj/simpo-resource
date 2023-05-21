@@ -16,6 +16,7 @@ Picture
 
 .. toctree::
 
+   TheEasiestWay
    ASM3
    Setp2
    Setp3

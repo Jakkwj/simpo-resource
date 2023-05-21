@@ -20,6 +20,3 @@ Step5
     :width: 7in
     :height: 3.3in
 
-^^^^^
-
-

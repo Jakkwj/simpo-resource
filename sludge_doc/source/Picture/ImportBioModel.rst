@@ -21,9 +21,6 @@ Import BioModel
     :width: 7in
     :height: 3.3in
 
-^^^^^
-
-
 
 
 

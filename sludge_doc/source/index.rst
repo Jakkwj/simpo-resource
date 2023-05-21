@@ -30,6 +30,47 @@ Sludge
 
 
 
+
+../_static/images/quick_start/ASM3/ASM3_1.gif
+../_static/images/quick_start/ASM3/ASM3_2.gif
+../_static/images/quick_start/ASM3/ASM3_3.gif
+../_static/images/quick_start/ASM3/ASM3_4.gif
+
+
+
+^^^^^
+
+../_static/images/quick_start/step2/1.gif
+../_static/images/quick_start/step2/2.gif
+../_static/images/quick_start/step2/3.gif
+../_static/images/quick_start/step2/4.gif
+
+^^^^^
+
+../_static/images/quick_start/step3/1.gif
+../_static/images/quick_start/step3/2.gif
+../_static/images/quick_start/step3/3.gif
+../_static/images/quick_start/step3/4.gif
+../_static/images/quick_start/step3/5.gif
+
+^^^^^
+
+../_static/images/quick_start/step4/1.gif
+../_static/images/quick_start/step4/2.gif
+../_static/images/quick_start/step4/3.gif
+
+^^^^^
+
+../_static/images/quick_start/step5/1.gif
+
+^^^^^
+
+
+../_static/images/gif/ASM3/import_biomodel.gif
+
+^^^^^
+
+
 .. Welcome to Sludge's documentation.
 
 .. Introduction

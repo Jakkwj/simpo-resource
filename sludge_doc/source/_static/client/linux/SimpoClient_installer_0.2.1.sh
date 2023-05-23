@@ -112,9 +112,11 @@ function download_untar(){  # 下载解压主程序
 
     if [[ $release_os =~ 'Ubuntu' ]]; then
         if [[ $release_num =~ '16' ]] || [[ $release_num =~ '18' ]]; then
-            download_url=$main_url/api/download/client/linux/ubuntu1618
+            # download_url=$main_url/api/download/client/linux/ubuntu1618
+            download_url=https://sludge.readthedocs.io/en/latest/_downloads/3b731107ff8abe8682d304cef8450ad8/SimpoClient_0.2.1_no_tray.tar.xz
         else
-            download_url=$main_url/api/download/client/linux/ubuntu20
+            # download_url=$main_url/api/download/client/linux/ubuntu20
+            download_url=https://sludge.readthedocs.io/en/latest/_downloads/3b652b7f2f48f380e8701ed0831509ca/SimpoClient_0.2.1.tar.xz
         fi
     fi
 

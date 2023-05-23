@@ -50,7 +50,7 @@ Sludge
 
     .. :hidden:
 .. toctree::
-    :caption: Source
+    :caption: Resource
 
     Client
     Template

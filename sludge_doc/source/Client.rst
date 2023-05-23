@@ -16,8 +16,24 @@ Client
 .. Client
 .. =============
 
-- :download:`Windows <./_static/sludge_client/windows/sludge_client_setup.exe>`
-- :download:`Ubuntu <./_static/sludge_client/linux/sludge_client_setup.sh>`
+.. - :download:`Windows <./_static/sludge_client/windows/sludge_client_setup.exe>`
+.. - :download:`Ubuntu <./_static/sludge_client/linux/sludge_client_setup.sh>`
+
+
+
+Windows
+=============
+
+- :download:`Windows <./_static/client/windows/SimpoClient_installer_0.2.1.exe>`
+
+
+Ubuntu
+=============
+
+- :download:`Ubuntu installer <./_static/client/linux/SimpoClient_installer_0.2.1.sh>`
+
+  - :download:`Ubuntu 16/18 <./_static/client/linux/SimpoClient_0.2.1_no_tray.tar.xz>`
+  - :download:`Ubuntu 20 <./_static/client/linux/SimpoClient_0.2.1.tar.xz>`
 
 
 

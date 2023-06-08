@@ -20,12 +20,14 @@ from datetime import datetime
 
 # -- Project information -----------------------------------------------------
 
-project = 'Sludge'
+# project = 'Sludge'
+project = 'Simpo'
 copyright = f'{datetime.now().year}, Jakkwj'
 author = 'Jakkwj'
 
 # The full version, including alpha/beta/rc tags
-release = 'v0.2.0'
+# release = 'v0.2.0'
+release = 'v0.2.1'
 
 
 # -- General configuration ---------------------------------------------------

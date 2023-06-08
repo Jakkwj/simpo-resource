@@ -18,7 +18,8 @@ build:
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
    # configuration: docs/conf.py
-   configuration: sludge_doc/source/conf.py
+   # configuration: sludge_doc/source/conf.py
+   configuration: simpo_resource/source/conf.py
 
 # If using Sphinx, optionally build your docs in additional formats such as PDF
 # formats:
@@ -28,4 +29,6 @@ sphinx:
 python:
    install:
    # - requirements: docs/requirements.txt
-   - requirements: sludge_doc/source/requirements.txt
+   # - requirements: sludge_doc/source/requirements.txt
+   - requirements: simpo_resource/source/requirements.txt
+

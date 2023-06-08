@@ -15,6 +15,9 @@ sphinx-autobuild source build/html
 
 ```
 
+# gif 压缩
+- https://docsmall.com/gif-compress
+
 
 # 错误
 - read the docs 编译时错误

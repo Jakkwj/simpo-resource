@@ -30,7 +30,9 @@ Windows
 Ubuntu
 =============
 
-- :download:`Ubuntu installer <./_static/client/linux/SimpoClient_installer_0.2.1.sh>`
+.. - :download:`Ubuntu installer <./_static/client/linux/SimpoClient_installer_0.2.1.sh>`
+
+- :download:`Ubuntu installer <./_static/client/linux/SimpoClient_installer_0.2.2.sh>`
 
   - :download:`Ubuntu 16/18 <./_static/client/linux/SimpoClient_0.2.1_no_tray.tar.xz>`
   - :download:`Ubuntu 20 <./_static/client/linux/SimpoClient_0.2.1.tar.xz>`

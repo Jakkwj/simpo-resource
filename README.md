@@ -1,4 +1,5 @@
 # 安装
+
 ```bash
 python -m pip install -i https://mirrors.aliyun.com/pypi/simple/ install sphinx sphinx-autobuild sphinx_rtd_theme
 
@@ -34,5 +35,12 @@ sphinx-autobuild source build/html
 
 
 
+# 注意
+
+- 一个库无法更改slug, 即已经建好的将无法更改url: https://docs.readthedocs.io/en/stable/faq.html#how-do-i-change-my-project-slug-the-url-your-docs-are-served-at
+
+
+
 # 参考
+
 - [Configuration File V2](https://docs.readthedocs.io/en/stable/config-file/v2.html)

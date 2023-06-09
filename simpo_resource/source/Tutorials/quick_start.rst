@@ -74,8 +74,8 @@ Download the calcualtion client and install it:
 
 - :download:`Windows <../_static/sludge_client/windows/sludge_client_setup.exe>`
 - :download:`Ubuntu <../_static/sludge_client/linux/sludge_client_setup.sh>`: download and run: ``sudo chmod +x sludge_client_setup.sh && ./sludge_client_setup.sh``
-.. - `Windows <http://111.230.245.215/api/download/client/installer/windows>`_
-.. - `Ubuntu <http://111.230.245.215/api/download/client/installer/linux>`_: download and run: ``sudo chmod +x sludge_client_setup.sh && ./sludge_client_setup.sh``
+.. - `Windows <http://xxx.xx.xx.xx/api/download/client/installer/windows>`_
+.. - `Ubuntu <http://xxx.xx.xx.xx/api/download/client/installer/linux>`_: download and run: ``sudo chmod +x sludge_client_setup.sh && ./sludge_client_setup.sh``
 
 
 .. .. code-block:: bash
@@ -147,7 +147,7 @@ There are a few ways to create a BioModel (choose 1 from 4 in below):
 ..    - Before finished the input, temparary save it to avoid lost the input.
 ..    - After finished the input, parsed save it to make sure all the input formats are correct.
 ..    - Optional: release different version to reference it.
-   .. 2. Or create a BioModel from a `template xlsx file <http://111.230.245.215/api/download/template/biomodel>`_ while creating.
+   .. 2. Or create a BioModel from a `template xlsx file <http://xxx.xxx.xx/api/download/template/biomodel>`_ while creating.
 .. Detial
 .. --------------
 
@@ -216,7 +216,7 @@ There are a few ways to create a DataSet (choose 1 from 5 in below):
 ..    - Before finished the input, temparary save it to avoid lost the input.
 ..    - After finished the input, parsed save it to make sure all the input formats are correct.
 ..    - Optional: release different version to reference it.
-.. 3. Or create a DataSet from a `template xlsx file <http://111.230.245.215/api/download/template/dataset>`_ while creating.
+.. 3. Or create a DataSet from a `template xlsx file <http://xxx.xxx.xx/api/download/template/dataset>`_ while creating.
 
 .. admonition:: *Layout Flow Chart*
     :class: note
@@ -264,7 +264,7 @@ There are a few ways to create a Project (choose 1 from 3 in below):
         :width: 7in
         :height: 3.3in
 
-.. 2. Or create a Project from a `template xlsx file <http://111.230.245.215/api/download/template/solution>`_ while creating.
+.. 2. Or create a Project from a `template xlsx file <http://xxx.xxx.xx/api/download/template/solution>`_ while creating.
 
 ^^^^^
 

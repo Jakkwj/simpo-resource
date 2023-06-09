@@ -242,7 +242,6 @@ function main(){
 
         # main_url=http://127.0.0.1:5000
         # main_url=http://localhost:9000
-        main_url=http://111.230.245.215:80
         program_name='SimpoClient'
         program_name_lowercase='simpoclient'
         can_remove='false'

@@ -34,6 +34,9 @@ sphinx-autobuild source build/html
 - ``requirements``路径：``sludge_doc/source/requirements.txt``
 
 
+# git 错误
+- 推送错误: [refspec matches more than one"](https://confluence.atlassian.com/bitbucketserverkb/pushing-a-branch-to-bitbucket-fails-with-the-error-refspec-matches-more-than-one-1108091938.html)
+
 
 # 注意
 

@@ -14,6 +14,8 @@ https://sludge.readthedocs.io/en/latest
 # 打开本地服务器
 sphinx-autobuild source build/html
 
+sphinx-autobuild source/ build/html 
+
 ```
 
 # gif 压缩

@@ -93,10 +93,11 @@ function mk_data_dir(){  # should mk later than mk_program_dir
 
 function rm_program_dir(){  # # remove folder if exist
 
+    cd /opt
+
     if [ -d /opt/${program_name} ]; then
-        rm -rf /opt/${program_name}
+        rm -r ${program_name}
         echo " -> SimpoClient program folder has been removed."
-        # echo ""
     fi
 
 }
@@ -259,16 +260,9 @@ function main(){
             echo ">>> SimpoClient is installing... <<<"
             echo ""
 
-
-
-            # mk_program_dir
-
+            rm_program_dir
             # if !(cd /opt/${program_name}); then  # only mk dir if it is not exist
             if [ ! -d /opt/${program_name} ]; then  # only mk dir if it is not exist
-                mk_program_dir
-                can_remove='true'
-            else
-                rm_program_dir
                 mk_program_dir
                 can_remove='true'
             fi
@@ -290,6 +284,4 @@ function main(){
 
 }
 
-# main
-
-rm_program_dir
+main

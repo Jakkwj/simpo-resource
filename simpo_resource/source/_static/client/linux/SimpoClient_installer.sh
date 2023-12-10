@@ -269,6 +269,8 @@ function main(){
                 can_remove='true'
             else
                 rm_program_dir
+                mk_program_dir
+                can_remove='true'
             fi
 
             cd /opt/${program_name}

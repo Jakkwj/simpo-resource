@@ -259,12 +259,16 @@ function main(){
             echo ">>> SimpoClient is installing... <<<"
             echo ""
 
+
+
             # mk_program_dir
 
             # if !(cd /opt/${program_name}); then  # only mk dir if it is not exist
             if [ ! -d /opt/${program_name} ]; then  # only mk dir if it is not exist
                 mk_program_dir
                 can_remove='true'
+            else
+                rm_program_dir
             fi
 
             cd /opt/${program_name}
@@ -284,4 +288,6 @@ function main(){
 
 }
 
-main
+# main
+
+rm_program_dir

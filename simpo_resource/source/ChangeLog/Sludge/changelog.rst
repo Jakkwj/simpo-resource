@@ -34,9 +34,9 @@ Sludge
 2022-05-11
 ====================
 
-- Changed
+- Improved
 
-  - Match with web version refine.
+  - Match with web version improve.
 
 
 
@@ -172,7 +172,7 @@ trying inflow and flow evaluation
 
 - Changed
 
-  - Refine some checker
+  - Improve some checker
 
 
 

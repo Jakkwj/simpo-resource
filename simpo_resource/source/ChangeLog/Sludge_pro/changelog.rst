@@ -23,7 +23,7 @@ Sludge_pro
 
 - Changed
 
-  - Match with web version refine.
+  - Match with web version improve.
 
 
 

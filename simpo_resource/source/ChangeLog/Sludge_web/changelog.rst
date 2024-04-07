@@ -21,7 +21,7 @@ Sludge_web
 
 - Changed
 
-  - DataSet refine seems ok.
+  - DataSet improve seems ok.
 
 
 
@@ -33,7 +33,7 @@ Sludge_web
 
 - Changed
 
-  - BioModel refine seems ok.
+  - BioModel improve seems ok.
 
 
 

@@ -33,11 +33,10 @@ Ubuntu
 =============
 
 .. - :download:`Ubuntu installer <./_static/client/linux/SimpoClient_installer_0.2.1.sh>`
+.. - :download:`Ubuntu 16/18 <./_static/client/linux/SimpoClient_no_tray.tar.xz>`
 
 - :download:`Ubuntu installer <./_static/client/linux/SimpoClient_installer.sh>`
 
-  - :download:`Ubuntu 16/18 <./_static/client/linux/SimpoClient_no_tray.tar.xz>`
-  - :download:`Ubuntu 20 <./_static/client/linux/SimpoClient.tar.xz>`
   - :download:`Ubuntu 20 <./_static/client/linux/SimpoClient.tar.xz>`
 
 - :download:`Package <./_static/client/linux/package.tar.xz>`

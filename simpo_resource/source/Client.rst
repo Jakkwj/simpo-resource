@@ -26,6 +26,8 @@ Windows
 
 - :download:`Windows <./_static/client/windows/SimpoClient_installer.exe>`
 
+- :download:`Package <./_static/client/windows/package.tar.xz>`
+
 
 Ubuntu
 =============
@@ -36,7 +38,9 @@ Ubuntu
 
   - :download:`Ubuntu 16/18 <./_static/client/linux/SimpoClient_no_tray.tar.xz>`
   - :download:`Ubuntu 20 <./_static/client/linux/SimpoClient.tar.xz>`
+  - :download:`Ubuntu 20 <./_static/client/linux/SimpoClient.tar.xz>`
 
+- :download:`Package <./_static/client/linux/package.tar.xz>`
 
 
 .. ^^^^

@@ -103,6 +103,22 @@ function rm_program_dir(){  # # remove folder if exist
 }
 
 
+function download_untar_package(){  # 下载解压 package/slduge/sludge_pro
+
+    download_url=https://sludge.readthedocs.io/en/latest/_downloads/315600e96ff680047cd50155abd4ac7f/SimpoClient.tar.xz
+
+    if wget -O package.tar.xz $download_url ; then
+        tar -xvf package.tar.xz
+        mv package/* /opt/${program_name}/package
+        rm -r package
+        rm package.tar.xz
+        return 0  # normal
+    else
+       echo ' -> Cannot download SimpoClient right now, please try again later or contact to the administrator.'
+       return 1  # un normal
+    fi
+}
+
 function download_untar(){  # 下载解压主程序
     # cd /home/$SUDO_USER/.local/bin
     # 下载解压后改名, 最后删除
@@ -130,15 +146,19 @@ function download_untar(){  # 下载解压主程序
         rm -r ${program_name}.dist
         rm ${program_name}.tar.xz
 
-        # cd bin
-        chmod -R 777 ${program_name}
+        if download_untar_package; then
+            chmod -R 777 ${program_name}
+        else
+            echo ' -> Cannot download SimpoClient right now, please try again later or contact to the administrator.'
+            return 1  # un normal
+        fi
+
         echo " -> SimpoClient has been downloaded and created."
         # echo ""
         ln -fs /opt/${program_name}/${program_name} /home/$SUDO_USER/.local/bin/
         return 0  # normal
     else
        echo ' -> Cannot download SimpoClient right now, please try again later or contact to the administrator.'
-    #    echo ""
        return 1  # un normal
     fi
 }

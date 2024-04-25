@@ -26,7 +26,7 @@ Windows
 
 - :download:`Windows <./_static/client/windows/SimpoClient_installer.exe>`
 
-- :download:`Package <./_static/client/windows/package.tar.xz>`
+- :download:`Package <./_static/client/windows/package.zip>`
 
 
 Ubuntu

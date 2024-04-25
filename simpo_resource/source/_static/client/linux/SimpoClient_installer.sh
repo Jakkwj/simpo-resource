@@ -105,16 +105,15 @@ function rm_program_dir(){  # # remove folder if exist
 
 function download_untar_package(){  # 下载解压 package/slduge/sludge_pro
 
-    download_url=https://sludge.readthedocs.io/en/latest/_downloads/315600e96ff680047cd50155abd4ac7f/SimpoClient.tar.xz
+    download_url=https://sludge.readthedocs.io/en/latest/_downloads/d2becf6ec5b7f288e9674fcdd21d6568/package.tar.xz
 
     if wget -O package.tar.xz $download_url ; then
         tar -xvf package.tar.xz
-        mv package/* /opt/${program_name}/package
-        rm -r package
         rm package.tar.xz
+        echo " -> package has been downloaded and created."
         return 0  # normal
     else
-       echo ' -> Cannot download SimpoClient right now, please try again later or contact to the administrator.'
+       echo ' -> Cannot download package right now, please try again later or contact to the administrator.'
        return 1  # un normal
     fi
 }

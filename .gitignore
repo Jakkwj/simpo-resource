@@ -12,7 +12,7 @@ gitpush.sh
 .history/
 .vscode/
 dev/
-
+client/
 
 # Distribution / packaging
 .Python

@@ -134,7 +134,11 @@ function download_untar(){  # 下载解压主程序
         # else
             # download_url=$main_url/api/download/client/linux/ubuntu20
             # download_url=https://sludge.readthedocs.io/en/latest/_downloads/3b652b7f2f48f380e8701ed0831509ca/SimpoClient_0.2.1.tar.xz
-        download_url=https://sludge.readthedocs.io/en/latest/_downloads/315600e96ff680047cd50155abd4ac7f/SimpoClient.tar.xz
+
+
+        # download_url=https://sludge.readthedocs.io/en/latest/_downloads/315600e96ff680047cd50155abd4ac7f/SimpoClient.tar.xz
+        # download_url=https://github.com/Jakkwj/simpo-resource/releases/download/v0.5.0/SimpoClient.dist.tar.xz
+        download_url=https://github.com/Jakkwj/simpo-resource/releases/download/${version}/SimpoClient.dist.tar.xz
         # fi
     fi
 
@@ -257,6 +261,8 @@ function make_url_protocol(){  # url 协议中不能带下划线!
 
 function main(){
     # version 0.0.2.2 (2023.06.10)
+
+    version='v0.5.0'
 
     if [ -z $SUDO_USER ]  # must run this shell with 'sudo'
     then
